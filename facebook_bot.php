@@ -1,6 +1,5 @@
 <?php
 // إعدادات التطبيق - سيتم تعبئتها من البيئة
-define('BOT_TOKEN', getenv('BOT_TOKEN') ?: "7840468800:AAFZNDp0PiUcm-POl-XMJLyjc8oOcsQcgd8");
 define('FACEBOOK_PAGE_ACCESS_TOKEN', getenv('FACEBOOK_PAGE_ACCESS_TOKEN') ?: 'EAARRlvmJ1MMBQKnSwYyhngmN7DDCtHP3LuNfQORrh1X6xzr7xI2fDJ0PjJvSaysjnG90EXvuJhRuYE80pF81GK1z9py3Xy7hRruOs0T9tebP3asDajzHmcwd8RBB4jyi2NfKZCsYytKGLZBq916Agrd4QXZCU8f26WH0xwJUkZAVnALZAcSOisILos40dJv1qBE7cGKSYswZDZD');
 define('FACEBOOK_GRAPH_API_URL', 'https://graph.facebook.com/v11.0/me/messages');
 
